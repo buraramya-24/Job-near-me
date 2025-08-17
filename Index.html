@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JobNearMe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📍 Jobs Near Me</h1>
+    <p>Find local jobs in your area — fast and free.</p>
+
+    <!-- Search Form -->
+    <form id="searchForm">
+      <input type="text" id="location" placeholder="Enter your city or pin code" required>
+      
+      <select id="jobType">
+        <option value="">All Jobs</option>
+        <option value="delivery">🚚 Delivery</option>
+        <option value="tutor">📚 Tutor</option>
+        <option value="mechanic">🔧 Mechanic</option>
+        <option value="electrician">💡 Electrician</option>
+        <option value="cleaner">🧹 Cleaner</option>
+        <option value="driver">🚗 Driver</option>
+        <option value="gardener">🌱 Gardener</option>
+      </select>
+
+      <button type="submit">🔍 Search Jobs</button>
+    </form>
+
+    <!-- Results -->
+    <div id="results">
+      <p>Enter your location and tap "Search Jobs" to get started.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
